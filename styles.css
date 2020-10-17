@@ -1,0 +1,39 @@
+*{
+	margin: 0;
+  	padding: 0;
+  	box-sizing: border-box;
+}
+body{
+	font-family: "Garamond", "Times New Roman", serif;
+	background-color: #cc93e4;
+}
+label {
+	font-size: 24px;
+}
+h1 {
+	font-size: 48px;
+}
+h2 {
+	font-size: 42px;
+}
+h3 {
+	font-size: 38px;
+}
+.page{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.item{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin: 10px;
+}
+.results{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	margin: 5px;
+}
